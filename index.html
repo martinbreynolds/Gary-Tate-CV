@@ -1,118 +1,267 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>Gary's Personal Site </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>Gary Tate Web Dev CV</title>
+  <link rel="stylesheet" href="/CV/styles.css">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Image/GaryTate.png" width="250" height="250" alt="Gary Tate's Profile Photo">" </td>
-      <td><h1>Gary Tate</h1>
-        <p>Inspireing <strong>Website Developer</strong></p>
-        <p>I'm a Website Developer in training and currently Learning all I can about HTML, CSS and JavaScript.</p>
-        <p> Connect with me on<a href="https://www.facebook.com/tategary"> FACEBOOK</a></p>
-       </td>
-    </tr>
-  </table>
-  <hr size"3" noshade>
-  <h3>My Web Development Journey</h3>
-  <p>My Web Development journey probably started much later in life them most people. 
-    Even though I've previously made loads of websites using WIX, I wouldn't have called 
-    myself a Web Developer. Like most people running their own business, I became a dab 
-    hand at making a great looking WIX website. But I quickly learnt that my websites on 
-    WIX were very limited. My Web Development journey really started this year while in lockdown 
-    due to Covid-19. Having lost all my work due to every single event being cancelled, I started 
-    to look at alternative opportunities. I had already been working on some Website and realised 
-    that I needed to learn more about coding to be able to get more out of the Website that I had 
-    created. So, I began learning as much as I could about HTMl, CSS and JavaScript and on the 1st 
-    June I started my first online Udemy course called The Complete 2020 Web Development Bootcamp and 
-    for the next 2 months, I plan to spend as much time as possible learning all I can about Website 
-    building, development and design. I hope to have lots of great website examples up for you to 
-    view soon.</p>
-  <hr size"3" noshade>
-  <h3>Website Development Skills</h3>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Gary Tate: Web Developer CV</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#ABOUT">ABOUT <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SKILLS">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#EMPLOYMENT">EMPLOYMENT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#EDUCATION">EDUCATION</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <br>
+        <h1 class="display-3">Hello, world!</h1>
+        <p>I’m a self-taught web developer that has been freelancing
+          for the past four years. My ambitions are to start as a junior
+          front-end web developer and to progress into being a fullstack developer.
+          <br>
+          <br>
+          I would describe myself as approachable, friendly & easy
+          to get along with. I’m a creative problem solver that thrives
+          with new challenges and stays calm under pressure. I have
+          a great desire to keep learning, developing and growing
+          both as a person and professionally. </p>
+        <p><a class="btn btn-primary btn-lg" href="#CONTACT" role="button">Contact me &raquo;</a></p>
+      </div>
+    </div>
+    <div class="container" id="ABOUT">
+      <h1>About:</h1>
+      <h4>My Interests</h4>
+      <img class="int-img" src="/CV/Image/interests/002-dj-mixer.svg" alt="DJ Decks">
+      <img class="int-img" src="/CV/Image/interests/004-aeroplane.svg" alt="Plane">
+      <img class="int-img" src="/CV/Image/interests/005-football-ball.svg" alt="Football">
+      <img class="int-img" src="/CV/Image/interests/008-web-programming.svg" alt="Code">
+      <img class="int-img" src="/CV/Image/interests/006-man-riding-a-bike.svg" alt="Biker">
+      <img class="int-img" src="/CV/Image/interests/007-game-controller.svg" alt="Gamer">
+      <hr>
+    </div>
+    <br>
+    <div class="container" id="SKILLS">
+      <h1>Skills</h1>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="c100 p80">
+            <span>80%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <h5>HTML5</h5>
+        </div>
+        <div class="col-md-4">
+          <div class="c100 p80">
+            <span>80%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <h5>CSS3</h5>
+        </div>
+        <div class="col-md-4">
+          <div class="c100 p80">
+            <span>70%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <h5>JS</h5>
+        </div>
+      </div>
+      <br>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container" id="OTHER-SKILLS">
+        <h1>Other Skills</h1>
+        <br>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#SKILLS">SASS</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#SKILLS">Bootstrap4</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#SKILLS">jquery</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#SKILLS">Git/Github</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#SKILLS">Responsive Design</a></p>
+        <br>
+        <br>
+        <br>
+        <h1>Other Skills Development</h1>
+        <br>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">Python</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">React.js</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">Node.js</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">Express.js</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">NPM</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">API's</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">RestFUL API's</a></p>
+        <br>
+        <br>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">PHP</a></p>
+
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">MongoDB</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">SQL</a></p>
+        <p class="skills"><a class="btn btn-primary btn-lg" href="#OTHER-SKILLS">NoSQL</a></p>
+        <br>
 
 
-<table cellspacing="10">
-  <tr>
-    <td>HTML(5)</td>
-    <td>👍</td>
-  </tr>
-  <tr>    
-    <td>CSS(3)</td>
-    <td>🤷‍♂️</td>
-  </tr>
- <tr>
-    <td>JavaScript</td>
-    <td>🤷‍♂️</td>
-  </tr>
-  <tr>
-    <td>Jquery</td>
-    <td>🤷‍♂️</td>
-  </tr>
-  <tr>
-    <td>Bootstrap Framework</td>
-    <td>🤷‍♂️</td>
-  </tr>
-  <tr>    
-    <td>PHP</td>
-    <td>🤷‍♂️</td>
-  </tr>
- <tr>
-    <td>Wordpress</td>
-    <td>🤷‍♂️</td>
-  </tr>
-  <tr>
-    <td>SEO</td>
-    <td>🤷‍♂️</td>
-  </tr>
-</table>
-<br>
-<p>My goal is to achieve 👍👍👍👍👍 for all the above.</p>
-<hr size"3" noshade>
-  <h3>My Interests</h3>
-  <ol>
-    <li><a
-        href="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/46323249_10156883738494439_1506972263159693312_n.jpg?_nc_cat=105&_nc_sid=0be424&_nc_ohc=Zuw-eNgdDn4AX9WAftG&_nc_ht=scontent-lht6-1.xx&oh=1bbb8e57e0e5c9a50a5c41604429aaa6&oe=5EF9AE9D">Traveling</a></li>
-    <li>DJing</li>
-    <li>Web Development</li>
-    <li>Watching Great Films</li>
-    <li>Watching Good Series</li>
-  </ol>
-  <a href="Interest.html">Read more about my interests.</a>
-  <hr size"3" noshade>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr align="left">
-        <th>Date</th>
-        <th>Work</th>
-      </tr>
-    </thead>
+      </div>
+    </div>
+    <div class="container" id="STRENGTHS">
+      <br>
+      <h1>Strengths</h1>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="c100 p95">
+            <span>95%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <h5>Creative</h5>
+        </div>
+        <div class="col-md-4">
+          <div class="c100 p95">
+            <span>95%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <h5>Problem Solver</h5>
+        </div>
+        <div class="col-md-4">
+          <div class="c100 p95">
+            <span>95%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <h5>Team Player</h5>
+        </div>
+      </div>
+      <br>
+    </div>
 
-    <tbody>
-      <tr>
-        <td>2016 - 2020 </td>
-        <td>Self Employed Events Organiser and Planner</td>
-      </tr>
-      <tr>
-        <td>2012 - 2016</td>
-        <td>Lead Youth Worker at Moortown Baptist Church</td>
-      </tr>
-    </tbody>
-    <tfoot></tfoot>
-  </table>
-  <hr size"3" noshade>
-  <br>
-  <br>
-  <h2><a href="Contacts.html">CONTACT ME</a></h2>
-  <br>
-  <br>
-  <br>
+    <div class="jumbotron">
+      <div class="container" id="EMPLOYMENT">
+        <h1>Employment:</h1>
+        <br>
+        <h4>Business Owner</h4>
+        <h6>Inspired Event & Website management 2016 - Present</h6>
+        <p>As a self-employed business owner, I provide event & website services. My services
+          includes: Website creation, development & management. I build & develop clients
+          website from the ground up.
+          I provide event services such as: management & training of volunteers, pre-site visits,
+          planning & organisation, administration tasks, logistics and liaisons with internal /
+          external marketing & engagement teams.</p>
 
+        <h5>Moortown Baptist Church / Leeds Faith in Schools, Leeds</h5>
+        <h6>Youth Worker: 2012 - 2016</h6>
+        <br>
+        <h5>Contagious Youth Project, Alnwick</h5>
+        <h6> Project Coordinator: 2008 - 2012</h6>
+        <br>
+        <h5>Acorn Community Church, Whitley Bay</h5>
+        <h6>Youth Development Worker: 2006 - 2008</h6>
+        <br>
+        <h5>Community Regeneration Trust, South Shields</h5>
+        <h6>After School Club Manager: 2005 - 2006</h6>
+        <br>
+        <hr>
+      </div>
+
+
+      <div class="container" id="EDUCATION">
+        <h1>Education:</h1>
+        <br>
+        <h4>The App Brewery</h4>
+        <h6>The Complete 2020 Web Development BootCamp
+          June 2020: PASS</h6>
+        <br>
+        <h4>Oasis Collage</h4>
+        <h6>Mentoring Through Intentional Relationships
+          September 2013: PASS</h6>
+        <br>
+        <h4>Sunderland University</h4>
+        <h6>Community & Youth Work JNC Diploma 2003 - 2005: PASS</h6>
+
+      </div>
+    </div>
+
+    <div class="container" id="CONTACT">
+      <h1>Contact:</h1>
+      <br>
+      <p>For a full CV, please email: <strong>g.tate@me.com</strong> </p>
+
+      <p>If you would like to talk, please call on <strong>07411 975 783</strong>
+      </p>
+      <p>My online profile website is: <a href="https://www.gt-web-dev.site">www.gt-web-dev.site</a></p>
+      <hr>
+    </div>
+  </main>
+  <br>
+  <footer class="container">
+    <p>&copy; Gary Tate 2021</p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
