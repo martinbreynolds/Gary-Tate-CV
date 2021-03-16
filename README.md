@@ -2,6 +2,9 @@
 
 You will find my CV within this repo. 
 
+[Gary Tate CV PDF](https://github.com/garytate123/CV/blob/master/Gary%20Tate%20CV%20April%202021.pdf)
+
+
 ## Introduction
 I am currently studying JAMstack Frontend Web Development with The Coders Guild and I’ve been retaining myself within web development for the past year. 
 
@@ -25,7 +28,7 @@ PHP, Python, SQL, NoSQL, MongoDB, SEO, CMS.
 ## Soft Skills: 
 Motivated, Customer Focus, Communication, Creative, Self-Starter, Calm Under Pressure, Reliable, Timekeeping, Team player, Life long learner.
 
-## Training  
+# Training  
 **The Coders Guild:**  JAMstack Bootcamp, 2 month pre-apprenticeship course
 
 ## Udemy: 
@@ -34,12 +37,12 @@ Git with Visual Studio Code and Command Line Git.
 
 **FreeCodeCamp** - Responsive Web Design Certification.
 
-## References
+# References
 **Work:** 
-Darren Richards, Head of Engagement, Mercy Ships 12 Meadway Court, Stevenage, SG1 2EF, Email: darren.richards@mercyships.org.uk Phone: 07591 203 586 
+Darren Richards, Head of Engagement, Mercy Ships 12 Meadway Court, Stevenage, SG1 2EF, Email: darren.richards@mercyships.org.uk 
 
 **Character:** 
-Geoff Baxter (OBE) Email: gb@geoffbaxterconsultancy.com Phone: 07743 780 713
+Geoff Baxter (OBE) Email: gb@geoffbaxterconsultancy.com 
 
 **Character:** 
-Elijah Kirby, CEO, North Point Foster Care, 62 High Street, Yarm, TS15 9AH, Email: elijahwkirby@gmail.com Phone: 0781 717 7722
+Elijah Kirby, CEO, North Point Foster Care, 62 High Street, Yarm, TS15 9AH, Email: elijahwkirby@gmail.com 
